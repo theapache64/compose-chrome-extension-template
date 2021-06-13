@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Compose_Chrome_Template-js-1.0.0-alpha01">
+    <output-path>$PROJECT_DIR$/build/libs</output-path>
+    <root id="archive" name="Compose_Chrome_Template-js-1.0.0-alpha01.jar" />
+  </artifact>
+</component>

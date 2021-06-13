@@ -1,0 +1,16 @@
+{
+  "name": "Compose Chrome Extension Template",
+  "version": "1.0.0",
+  "description": "A simple compose web google chrome extension template",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon128.png",
+    "default_popup": "index.html",
+    "default_title": "Compose Chrome Extension Template"
+  }
+}
