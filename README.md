@@ -1,6 +1,8 @@
-![](cover.jpeg)
+# compose-chrome-extension-template
 
-# compose-web-template
+![](demo.gif)
+
+> 
 
 ![buildStatus](https://img.shields.io/github/workflow/status/theapache64/compose-web-template/Java%20CI%20with%20Gradle?style=plastic)
 ![latestVersion](https://img.shields.io/github/v/release/theapache64/compose-web-template)
@@ -8,7 +10,7 @@
 <img alt="Twitter: theapache64" src="https://img.shields.io/twitter/follow/theapache64.svg?style=social" />
 </a>
 
-> A basic compose web project template
+> A basic compose chrome extension template 
 
 ## 🏃 Run
 
@@ -16,11 +18,18 @@
 ./gradlew jsBrowserRun
 ```
 
-## 📦 Distribute
+## 📦 Install
 
-```
-./gradlew jsBrowserDistribution // and then open index.html (build/distributions)
-```
+1. Create the distributable
+    ```
+    ./gradlew jsBrowserDistribution 
+    ```
+1. Go to `chrome://extensions` (Google Chrome)
+1. Enable `Developer mode`  with the switch in the top-right corner
+1. Click on `Load unpacked` and choose `build/distributions` directly
+1. Voila! You've installed the extension.
+
+_incase you want to zip the extension, use the `Pack extension` button_
 
 ## ✍️ Author
 
