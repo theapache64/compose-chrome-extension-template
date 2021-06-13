@@ -24,7 +24,7 @@
     ```
 1. Go to `chrome://extensions` (Google Chrome)
 1. Enable `Developer mode`  with the switch in the top-right corner
-1. Click on `Load unpacked` and choose `build/distributions` directly
+1. Click on `Load unpacked` and choose `build/distributions` directory
 1. Voila! You've installed the extension.
 
 _incase you want to zip the extension, use the `Pack extension` button_
