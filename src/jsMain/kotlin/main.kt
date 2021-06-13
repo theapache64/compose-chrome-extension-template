@@ -11,6 +11,7 @@ fun main() {
     var bgColor by mutableStateOf("#003244")
 
     renderComposable(rootElementId = "root") {
+        // main div
         Div({
             style {
                 padding(25.px)
@@ -18,13 +19,12 @@ fun main() {
             }
         }) {
 
-            H1(
-                {
-                    style {
-                        color("white") // White text
-                    }
+
+            H1({
+                style {
+                    color("white") // White text
                 }
-            ) {
+            }) {
                 Text("Hello $platform")
             }
 
