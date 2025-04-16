@@ -8,7 +8,7 @@ import org.jetbrains.compose.web.renderComposable
 
 fun main() {
     var platform by mutableStateOf("Compose Web!")
-    var bgColor by mutableStateOf("#003244")
+    var bgColor by mutableStateOf(Color("#003244"))
 
     renderComposable(rootElementId = "root") {
         // main div
@@ -22,7 +22,7 @@ fun main() {
 
             H1({
                 style {
-                    color("white") // White text
+                    color(Color("white")) // White text
                 }
             }) {
                 Text("Hello $platform")
@@ -32,7 +32,7 @@ fun main() {
                 // Click listener
                 onClick {
                     platform = "Chrome Extension!" // Changing text
-                    bgColor = "#00F488" // Changing background color to green
+                    bgColor = Color("#00F488") // Changing background color to green
                 }
             }) {
                 Text("Click Me!")
