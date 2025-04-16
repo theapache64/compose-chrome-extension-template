@@ -1,7 +1,7 @@
 // Add compose gradle plugin
 plugins {
-    kotlin("multiplatform") version "1.8.0"
-    id("org.jetbrains.compose") version "1.3.0"
+    kotlin("multiplatform") version "1.9.25"
+    id("org.jetbrains.compose") version "1.7.3"
 }
 group = "com.composeweb.chrome"
 version = "1.0.0-alpha01"
